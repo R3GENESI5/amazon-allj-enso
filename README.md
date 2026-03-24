@@ -1,8 +1,16 @@
 # ENSO Modulation of the Amazonian Low-Level Jet
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19209348.svg)](https://doi.org/10.5281/zenodo.19209348)
+
 Code and analysis scripts for:
 
 **Shahid, A. B., et al. (2026). ENSO Modulation of the Amazonian Low-Level Jet: More Moisture, Less Rain, and the Role of Land Surface Reception.**
+
+## Citation
+
+If you use this code, please cite:
+
+> Shahid, A. B., et al. (2026). Analysis code for: ENSO Modulation of the Amazonian Low-Level Jet. Zenodo. https://doi.org/10.5281/zenodo.19209348
 
 ## Requirements
 
