@@ -1,0 +1,48 @@
+# ENSO Modulation of the Amazonian Low-Level Jet
+
+Code and analysis scripts for:
+
+**Shahid, A. B., et al. (2026). ENSO Modulation of the Amazonian Low-Level Jet: More Moisture, Less Rain, and the Role of Land Surface Reception.**
+
+## Requirements
+
+- Python 3.9+
+- See `environment.yml` for full dependencies
+
+## Data
+
+See `data/README.md` for instructions on obtaining the required datasets.
+
+## Reproducing the analysis
+
+Scripts are numbered in order of execution:
+
+1. `00_download_data.py` -- Download all required datasets (requires API credentials for CDS, Earthdata)
+2. `01_enso_classification.py` -- Classify years by ENSO phase using the ONI index
+3. `02_moisture_flux_composites.py` -- 45-year ERA5 moisture flux composites by ENSO phase (Fig. 1)
+4. `03_chirps_transect.py` -- CHIRPS precipitation coast-to-interior transect (Fig. 2)
+5. `04_grace_tws.py` -- GRACE terrestrial water storage anomaly time series (Fig. 3)
+6. `05_subsidence_omega.py` -- 500 hPa omega (vertical velocity) composites (Fig. 4)
+7. `06_moisture_budget.py` -- Moisture flux convergence and retention analysis (Fig. 5)
+8. `07_deforestation_signal.py` -- Deforestation-era precipitation and TWS trends (Fig. 6)
+9. `08_smap_residence_time.py` -- SMAP soil moisture residence time analysis (Fig. 7)
+10. `09_diurnal_composites.py` -- ERA5 hourly diurnal cycle composites (Fig. 8)
+11. `10_priming_correlation.py` -- Nocturnal moisture flux priming of next-day CAPE (Fig. 9)
+12. `11_nocturnal_partition.py` -- Nocturnal vs daytime moisture flux partition (Fig. 10)
+
+All scripts use relative paths and can be run from the repository root:
+
+```bash
+cd repo/
+python scripts/01_enso_classification.py
+```
+
+Shared domain definitions are in `scripts/domains.py`.
+
+## Attribution
+
+Analysis assisted by Claude (Anthropic). All scientific decisions, interpretations, and conclusions are the responsibility of the authors.
+
+## License
+
+MIT License
