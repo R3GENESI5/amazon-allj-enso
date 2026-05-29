@@ -1,8 +1,8 @@
-# ALLJ — figure build scripts (v2)
+# ALLJ — figure build scripts
 
 Source code for the nine figures in **"ENSO Modulation of the Amazonian Low-Level Jet: More Moisture, Less Rain, and the Role of Land Surface Reception"** (Shahid 2026, EarthArXiv preprint).
 
-This is the v2 plotting refactor (Nature-style typography, cmocean colormaps, Amazon river overlays, basin/city labels). The original analysis code is archived at [doi:10.5281/zenodo.19209348](https://doi.org/10.5281/zenodo.19209348) (March 2026 deposit). Subsequent revisions are tracked as tagged releases at https://github.com/R3GENESI5/amazon-allj-enso.
+Updated plotting code (added in release v1.0.2). Same composites as the original `scripts/` pipeline; only the figure layer was rewritten with cmocean colormaps, Amazon river overlays, basin/city labels, and margin-positioned annotations so no text overlaps data. All versions are archived under the Zenodo concept DOI [10.5281/zenodo.19209347](https://doi.org/10.5281/zenodo.19209347).
 
 ## Layout
 

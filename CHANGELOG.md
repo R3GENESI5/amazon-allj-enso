@@ -1,9 +1,9 @@
 # Changelog
 
-## v2.0.0 — 2026-05-29
+## v1.0.2 — 2026-05-29
 
 Updated figures. Underlying analysis pipeline (data download, ENSO
-classification, compositing) is unchanged from v1.
+classification, compositing) is unchanged from v1.0.1.
 
 Added
 * `scripts_v2/` — nine new figure-build scripts (`build_fig01..09.py`) plus
