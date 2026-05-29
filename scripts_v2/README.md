@@ -2,7 +2,7 @@
 
 Source code for the nine figures in **"ENSO Modulation of the Amazonian Low-Level Jet: More Moisture, Less Rain, and the Role of Land Surface Reception"** (Shahid 2026, EarthArXiv preprint).
 
-Updated plotting code (added in release v1.0.2). Same composites as the original `scripts/` pipeline; only the figure layer was rewritten with cmocean colormaps, Amazon river overlays, basin/city labels, and margin-positioned annotations so no text overlaps data. All versions are archived under the Zenodo concept DOI [10.5281/zenodo.19209347](https://doi.org/10.5281/zenodo.19209347).
+Updated plotting code (added in release v1.0.2). Same composites as the original `scripts/` pipeline; only the figure layer was rewritten with cmocean colormaps, Amazon river overlays, basin/city labels, and margin-positioned annotations so no text overlaps data. All versions archived under Zenodo concept DOI [10.5281/zenodo.19209347](https://doi.org/10.5281/zenodo.19209347).
 
 ## Layout
 
