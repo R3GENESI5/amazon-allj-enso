@@ -21,7 +21,16 @@ If you use this code, please cite:
 
 See `data/README.md` for instructions on obtaining the required datasets.
 
-## Reproducing the analysis
+## Layout
+
+This repository contains two generations of code:
+
+- **`scripts/`** — Original analysis pipeline (v1.0.x). 12 numbered scripts that download raw data, classify ENSO years, compute composites, and produce the first round of figures. This is the code archived under [doi:10.5281/zenodo.19209348](https://doi.org/10.5281/zenodo.19209348) (March 2026 deposit).
+- **`scripts_v2/`** — Plotting refactor used for the EarthArXiv preprint (v2.0.x). Same underlying datasets and composites; rewritten figure layer with Helvetica/Arial typography, cmocean perceptually uniform colormaps, Amazon river overlays, basin/city labels, and margin-positioned annotations so no text overlaps data. Output figures are 300 DPI PNG + PDF in `figures_v2/`. See `scripts_v2/README.md`.
+
+If you want to reproduce the *preprint* figures, use `scripts_v2/`. If you want the original analysis pipeline that downloads and ingests the raw data, use `scripts/`.
+
+## Reproducing the original analysis
 
 Scripts are numbered in order of execution:
 

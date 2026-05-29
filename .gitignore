@@ -1,0 +1,4 @@
+
+# v2 caches (regenerable)
+figures_v2/_*.npz
+scripts_v2/__pycache__/
